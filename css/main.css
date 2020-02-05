@@ -57,7 +57,7 @@ header,
 main,
 .social,
 footer {
-  margin: 20px 30px;
+  margin: 40px;
 }
 
 img {
@@ -124,7 +124,9 @@ footer p {
   }
 
   .social {
+    align-items: flex-start;
     justify-content: flex-end;
+    margin-top: 0;
   }
 
   .social p {
